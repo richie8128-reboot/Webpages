@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talleres Mecánicos y Eléctricos en Tlalnepantla</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #004a99;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      padding: 20px;
+    }
+    .taller {
+      background: #fff;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .taller h2 {
+      margin: 0 0 10px 0;
+      font-size: 1.3em;
+      color: #0056b3;
+    }
+    .taller p {
+      margin: 4px 0;
+    }
+    .rating {
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Talleres Mecánicos y Eléctricos en Tlalnepantla</h1>
+    <p>Encuentra aquí talleres confiables de mecánica y servicios automotrices.</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Taller 1 -->
+    <div class="taller">
+      <h2>🔧 [Servicio Automotriz PONCE](chatgpt://generic-entity?number=0)</h2>
+      <p><strong>Dirección:</strong> Sindicato Nacional de Electricistas 36, Hab Electra</p>
+      <p><strong>Valoración:</strong> ⭐ 4.9 (excelente reputación)</p>
+      <p>Servicio integral de mantenimiento y reparación automotriz, con atención detallada y transparente.</p>
+    </div>
+
+    <!-- Taller 2 -->
+    <div class="taller">
+      <h2>🔧 [MAP AUTOMOTRIZ](chatgpt://generic-entity?number=1)</h2>
+      <p><strong>Dirección:</strong> Cuauhtémoc 284, La Romana</p>
+      <p><strong>Valoración:</strong> ⭐ 4.9</p>
+      <p>Servicio de reparación y mantenimiento automotriz con reseñas positivas.</p>
+    </div>
+
+    <!-- Taller 3 -->
+    <div class="taller">
+      <h2>🔧 [J&M Automotriz](chatgpt://generic-entity?number=2)</h2>
+      <p><strong>Dirección:</strong> C. Emiliano Zapata 26, San Lucas Tepetlacalco</p>
+      <p><strong>Valoración:</strong> ⭐ 4.5</p>
+      <p>Reparación automotriz general con buenos comentarios de clientes.</p>
+    </div>
+
+    <!-- Taller 4 -->
+    <div class="taller">
+      <h2>🔧 [LEZAMA AUTOMOTRIZ](chatgpt://generic-entity?number=3)</h2>
+      <p><strong>Dirección:</strong> C. Hidalgo 65, San Andrés Atenco</p>
+      <p><strong>Valoración:</strong> ⭐ 4.6</p>
+      <p>Taller especializado en mantenimiento general de autos y flotillas. </p>
+    </div>
+
+    <!-- Taller 5 -->
+    <div class="taller">
+      <h2>🔧 [TALLER MECÁNICO RV-MOTORES](chatgpt://generic-entity?number=4)</h2>
+      <p><strong>Dirección:</strong> Calle Galeana 215, La Loma</p>
+      <p><strong>Valoración:</strong> ⭐ 4.8</p>
+      <p>Servicio de reparación con excelente reputación local.</p>
+    </div>
+
+    <!-- Más talleres: -->
+    <div class="taller">
+      <h2>🔧 [Servicio Automotriz Arista](chatgpt://generic-entity?number=5)</h2>
+      <p>Dirección: Calle Berriozabal 54, Tlalnepantla Centro</p>
+      <p>Valoración: ⭐ 4.9</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Taller Mecánico Hernández](chatgpt://generic-entity?number=6)</h2>
+      <p>Dirección: Av Texcoco 7, La Loma</p>
+      <p>Valoración: ⭐ 4.5</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Servicio Automotriz Akita](chatgpt://generic-entity?number=7)</h2>
+      <p>Dirección: C. Fray José Mojica 2</p>
+      <p>Valoración: ⭐ 4.8</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Mecánica Automotriz "Jesse"](chatgpt://generic-entity?number=8)</h2>
+      <p>Dirección: C. Benito Juárez 49</p>
+      <p>Valoración: ⭐ 4.9</p>
+    </div>
+
+    <!-- Talleres adicionales sin valoración destacada -->
+    <div class="taller">
+      <h2>🔧 [Taller Mecánico La Cochera](chatgpt://generic-entity?number=9)</h2>
+      <p>Dirección: Francisco Sarabia 7, Tlalnepantla Centro</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Taller Mecánico Olivo](chatgpt://generic-entity?number=10)></h2>
+      <p>Dirección: Av Tlalnepantla Mz 35, El Olivo II Parte Alta</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Mecánico Yhonny](chatgpt://generic-entity?number=11)</h2>
+      <p>Dirección: Av Texcoco 21</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Taller Automotriz Calzada](chatgpt://generic-entity?number=12)</h2>
+      <p>Dirección: Nicolás Bravo 38</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Servicio Olvera](chatgpt://generic-entity?number=13)</h2>
+      <p>Dirección: Calle Cuitláhuac 23, San Javier</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Mecánica Automotriz Profesional](chatgpt://generic-entity?number=14)</h2>
+      <p>Dirección: C. 5 de Mayo 30</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Taller mecánico Pacheco](chatgpt://generic-entity?number=15)</h2>
+      <p>Dirección: El Reformador 1091</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Servicio Mecánico Guerrero](chatgpt://generic-entity?number=16)</h2>
+      <p>Dirección: Ind. Eléctrica de México 37, Vista Hermosa</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Taller Mecánico Alvarado](chatgpt://generic-entity?number=17)</h2>
+      <p>Dirección: Calle Tlaloc 72, San Bartolo Tenayuca</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Auto Servicio "Karina"](chatgpt://generic-entity?number=18)</h2>
+      <p>Dirección: C. Metepec 101, La Romana</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [CARWARE Mechanic Automotriz](chatgpt://generic-entity?number=19)</h2>
+      <p>Dirección: C. Viveros de la Cascada 86, Viveros de la Loma</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Mecánica en general Vazquez](chatgpt://generic-entity?number=20)</h2>
+      <p>Dirección: Ceiba 24, Bosques de Ceylan</p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [The Lex Repair Garage](chatgpt://generic-entity?number=21)</h2>
+      <p>Dirección: C. Aculco 118, La Romana</p>
+      <p><em>Especialidad en motocicletas</em></p>
+    </div>
+
+    <div class="taller">
+      <h2>🔧 [Multiservicio automotriz HEGA](chatgpt://generic-entity?number=22)</h2>
+      <p>Dirección: Av Atlacomulco 67</p>
+      <p>⭐ 5.0 reviews</p>
+    </div>
+
+  </div>
+</body>
+</html>
