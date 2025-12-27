@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVision | Innovación Informática</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <nav class="flex justify-between items-center py-6 px-10 bg-gray-800 sticky top-0 z-50 shadow-lg">
+        <h1 class="text-2xl font-bold text-blue-500">TECH<span class="text-white">VISION</span></h1>
+        <ul class="flex space-x-8 text-sm uppercase tracking-widest">
+            <li><a href="#inicio" class="hover:text-blue-400 transition">Inicio</a></li>
+            <li><a href="#servicios" class="hover:text-blue-400 transition">Servicios</a></li>
+            <li><a href="#noticias" class="hover:text-blue-400 transition">Blog</a></li>
+            <li><a href="#contacto" class="bg-blue-600 px-4 py-2 rounded-lg hover:bg-blue-700 transition">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="h-screen flex flex-col justify-center items-center text-center px-4 bg-gradient-to-b from-gray-800 to-gray-900">
+        <h2 class="text-5xl md:text-7xl font-extrabold mb-4">El Futuro de la <span class="text-blue-500">Computación</span></h2>
+        <p class="text-gray-400 text-lg md:text-xl max-w-2xl">Exploramos la Inteligencia Artificial, el Cloud Computing y la Ciberseguridad para potenciar tu negocio.</p>
+        <div class="mt-8 space-x-4">
+            <button class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-bold transition">Ver Proyectos</button>
+            <button class="border border-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-full font-bold transition">Saber Más</button>
+        </div>
+    </header>
+
+    <section id="servicios" class="py-20 px-10">
+        <div class="text-center mb-16">
+            <h3 class="text-3xl font-bold uppercase tracking-widest">Servicios IT</h3>
+            <div class="h-1 w-20 bg-blue-500 mx-auto mt-2"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-8 rounded-2xl hover:transform hover:-translate-y-2 transition duration-300 border border-gray-700">
+                <i class="fa-solid fa-cloud-arrow-up text-4xl text-blue-500 mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Cloud Infrastructure</h4>
+                <p class="text-gray-400">Migración y gestión de servidores en AWS, Azure y Google Cloud.</p>
+            </div>
+            <div class="bg-gray-800 p-8 rounded-2xl hover:transform hover:-translate-y-2 transition duration-300 border border-gray-700">
+                <i class="fa-solid fa-shield-halved text-4xl text-blue-500 mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Cybersecurity</h4>
+                <p class="text-gray-400">Protección de datos y auditorías de seguridad avanzadas.</p>
+            </div>
+            <div class="bg-gray-800 p-8 rounded-2xl hover:transform hover:-translate-y-2 transition duration-300 border border-gray-700">
+                <i class="fa-solid fa-code text-4xl text-blue-500 mb-4"></i>
+                <h4 class="text-xl font-bold mb-2">Software Development</h4>
+                <p class="text-gray-400">Desarrollo a medida con las últimas tecnologías como React y Python.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="bg-black py-10 text-center border-t border-gray-800">
+        <p class="text-gray-500">© 2025 TechVision IT Solutions. Todos los derechos reservados.</p>
+        <div class="flex justify-center space-x-6 mt-4 text-xl">
+            <a href="#" class="hover:text-blue-500"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="hover:text-blue-500"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="hover:text-blue-500"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
